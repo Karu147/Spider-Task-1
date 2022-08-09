@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>FORTUNATE HUMANAE</title>
+        <style>
+            body{
+                padding-left: 400px;
+            }
+            table {
+                width: fit-content;
+            }
+            h1 {
+                font-size: x-large;
+                font-weight: bolder;
+                font-style: italic;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin-left: 150px;
+            }
+            tr{
+                width: 50px;
+                height: 10px;
+            }
+            th {
+                text-align: center;
+                font-weight: bold;
+                text-size-adjust: 20;
+                height: 30px;
+            }
+            table, th, td {
+                border: 1px solid #000;
+            }
+            td {
+                width: 50px;
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>FORTUNATE HUMANAE</h1>
+        <p> RULES:</p>
+        <p>1.Each player gets 5 boxes and alternative chances</p>
+        <p>2.The human in each box gets 3 bullets with which a human of other player can be shot</p>
+        <p>3.If all the humans are completed the player wins</p>
+        <table id="myTable">
+            <tr>
+                <th> BOX Number </th>
+                <th> 
+                    <p>Player 1</p> 
+                    <button id="btn-1" class="btn1">Player 1</button>
+                    <p id="play1"></p>
+                </th>
+                <th> 
+                    <p>Player 2</p> 
+                    <button id="btn-2" class="btn2">Player 2</button>
+                    <p id="play2"></p>
+                </th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td id="boxa1">  </td>
+                <td id="boxb1">  </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td id="boxa2">  </td>
+                <td id="boxb2">  </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td id="boxa3">  </td>
+                <td id="boxb3">  </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td id="boxa4">  </td>
+                <td id="boxb4">  </td>
+            </tr>
+            <tr>
+                <td> 5 </td>
+                <td id="boxa5">  </td>
+                <td id="boxb5">  </td>
+            </tr>
+        </table>
+    </body>
+    <script src="index.js"></script>
+</html>
